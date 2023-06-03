@@ -1,8 +1,3 @@
-# Password Generator
- this is a website that generates a password.
-
- ## The Algorithm:
- ````
 import random
 
 def GeneratePassword():
@@ -20,4 +15,3 @@ def GeneratePassword():
                 passwrd += chars[random.randint(0, len(chars) - 1)]
 
     field.element.innerText = passwrd #display the password
- ````
