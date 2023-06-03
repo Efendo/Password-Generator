@@ -4,16 +4,15 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
         <script defer src="https://pyscript.net/latest/pyscript.js"></script>
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="flex justify-center items-center h-screen bg-slate-900">
         <py-script src="app.py"></py-script>
-        <div class="bg-slate-800 p-[50px] shadow-2xl rounded-lg text-white transition-all duration-700 md:p-[128px]">
+        <div class="bg-slate-800 p-[16px] shadow-2xl rounded-lg text-white transition-all duration-700 md:p-[128px]">
             <h1 class="font-bold text-center text-xl mb-[8px] md:text-5xl transition-all duration-700">Password Generator</h1>
-            <p id="passw-out" class="bg-slate-900 w-[246px] transition-all duration-700 h-[40px] p-[8px] md:h-[60px] text-center rounded-lg md:w-[500px] font-bold md:text-4xl"></p>
+            <p id="passw-out" class="bg-slate-900 w-[326px] transition-all duration-700 h-[38px] p-[8px] text-center md:h-[58px] rounded-lg md:w-[580px] font-bold text-xs md:text-2xl"></p>
             <p class="text-center font-bold mt-[8px]"><button id="gen-btn" py-onClick="GeneratePassword()" class="bg-blue-500 active:duration-150 rounded-lg active:bg-blue-600 md:hover:text-6xl hover:text-2xl hover:transition-all transition-all duration-700 md:text-4xl hover:duration-700 p-[4px]">Generate</button></p>
         </div>
     </body>
